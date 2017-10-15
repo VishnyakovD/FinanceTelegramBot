@@ -11,8 +11,7 @@
 	},
 	"devDependencies": {},
 	"scripts": {
-			"start": "node financebot.js",
-			"deploy": "gcloud app deploy" 
+			"start": "node financebot.js"
 	},
 	"author": "Vishnyakov Dmitriy",
 	"license": "ISC"
