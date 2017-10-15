@@ -51,6 +51,7 @@ bot.on('message', function (msg) {
         }
     } catch (error) {
         bot.sendMessage(chatId, `Ошибка!!! "${error.message}`, { caption: 'Финансы' });
+        console.log(error);
     }	
  });
 
