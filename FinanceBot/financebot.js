@@ -39,9 +39,9 @@ bot.on('message', function (msg) {
         
             case "/help":
             bot.sendMessage(chatId, `
-        /cursn - наличный курс
-        /cursb - безналичный курс
-        /chast - лимит оплаты частями
+/cursn - наличный курс
+/cursb - безналичный курс
+/chast - лимит оплаты частями
             `, { caption: 'Финансы' });
             break;
         
