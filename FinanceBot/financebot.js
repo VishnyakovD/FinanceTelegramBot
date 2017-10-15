@@ -5,15 +5,11 @@ chast - Лимит оплаты частями
 help - Список команд
 */
 
-
-
 var TelegramBot = require('node-telegram-bot-api');
 //var Http = require('http');
 const https = require('https');
 var token = '407638065:AAE152FPuTHUfcava0yZgx_5kG14YvskaKc';
 var bot = new TelegramBot(token, {polling: true});
-
-
     
 bot.on('message', function (msg) {
     var chatId = msg.chat.id;
