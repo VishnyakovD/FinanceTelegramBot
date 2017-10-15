@@ -1,0 +1,15 @@
+{
+	"name": "financebot",
+	"version": "1.0.0",
+	"description": "",
+	"main": "financebot.js",
+	"dependencies": {
+		"node-telegram-bot-api": "^0.28.0"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Vishnyakov Dmitriy",
+	"license": "ISC"
+}
