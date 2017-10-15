@@ -22,13 +22,13 @@ bot.on('message', function (msg) {
         switch (msg.text) {
             case "/cursb":
                 var msgOpt={
-                    title1:`          Безналичный курс\n`,title2:'Валюта     Покупка       Продажа\n'
+                    title1:`          Безналичный курс+\n`,title2:'Валюта     Покупка       Продажа\n'
                 } 
                 SendRequestGet({hostname: 'api.privatbank.ua',port: 443,path: '/p24api/pubinfo?exchange&json&coursid=11', method: 'GET'},chatId,msgOpt);
                 break;
             case "/cursn":
                 var msgOpt={
-                    title1:`          Наличный курс\n`,title2:'Валюта     Покупка       Продажа\n'
+                    title1:`          Наличный курс+\n`,title2:'Валюта     Покупка       Продажа\n'
                 } 
                 SendRequestGet({hostname: 'api.privatbank.ua',port: 443,path: '/p24api/pubinfo?exchange&json&coursid=5', method: 'GET'},chatId,msgOpt);
             break;
