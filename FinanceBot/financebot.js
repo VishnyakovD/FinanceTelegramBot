@@ -11,6 +11,10 @@ const https = require('https');
 var token = '407638065:AAE152FPuTHUfcava0yZgx_5kG14YvskaKc';
 var bot = new TelegramBot(token, {polling: true});
     
+bot.on('error', function (msg) {
+    console.log(msg);
+});
+
 bot.on('message', function (msg) {
     var chatId = msg.chat.id;
  
