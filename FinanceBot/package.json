@@ -1,13 +1,14 @@
 {
 	"name": "financebot",
 	"version": "1.0.0",
-	"description": "Это Финансовый бот",
+	"description": "пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ",
 	"main": "financebot.js",
 	"dependencies": {
 		"node-telegram-bot-api": "^0.28.0"
 	},
 	"engines": {
-		"node": ">=4.3.2"
+		"node": ">=4.3.2",
+		"supervisor": ">=0.12.0"
 	},
 	"devDependencies": {},
 	"scripts": {
