@@ -7,12 +7,11 @@
 		"node-telegram-bot-api": "^0.28.0"
 	},
 	"engines": {
-		"node": ">=4.3.2",
-		"forever" : ">=0.15.3"
+		"node": ">=4.3.2"
 	},
 	"devDependencies": {},
 	"scripts": {
-			"start": "forever restart financebot.js"
+			"start": "node financebot.js"
 	},
 	"author": "Vishnyakov Dmitriy",
 	"license": "ISC"
