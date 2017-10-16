@@ -42,6 +42,7 @@ bot.on('message', function (msg) {
             break;
         
             case "/help":
+            case "/start":
             bot.sendMessage(chatId, `
 /cursn - Наличный курс
 /cursb - Безналичный курс
