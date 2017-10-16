@@ -21,7 +21,7 @@ bot.on('message', function (msg) {
  
     try {
         switch (msg.text) {
-            case "version":
+            case "/version":
             bot.sendMessage(chatId, "0.1.0", { caption: 'Версия бота' });
             break;
             case "/cursb":
