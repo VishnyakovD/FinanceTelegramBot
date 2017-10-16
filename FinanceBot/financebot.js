@@ -6,7 +6,7 @@ version - Версия бота
 help - Список команд
 */
 
-var vers="0.1.1";
+var vers="0.1.2";
 var TelegramBot = require('node-telegram-bot-api');
 //var Http = require('http');
 const https = require('https');
