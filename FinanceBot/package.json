@@ -8,11 +8,11 @@
 	},
 	"engines": {
 		"node": ">=4.3.2",
-		"supervisor": ">=0.12.0"
+		"nodemon": ">=1.12.1"
 	},
 	"devDependencies": {},
 	"scripts": {
-			"start": "supervisor financebot.js"
+			"nodemon": "financebot.js"
 	},
 	"author": "Vishnyakov Dmitriy",
 	"license": "ISC"
