@@ -1,7 +1,7 @@
 {
 	"name": "financebot",
 	"version": "1.0.1",
-	"description": "��� ���������� ���",
+	"description": "Описание бота",
 	"main": "financebot.js",
 	"dependencies": {
 		"node-telegram-bot-api": "^0.28.0"
@@ -11,7 +11,7 @@
 	},
 	"devDependencies": {},
 	"scripts": {
-			"start": "node financebot.js"
+			"start": "forever start financebot.js"
 	},
 	"author": "Vishnyakov Dmitriy",
 	"license": "ISC"
