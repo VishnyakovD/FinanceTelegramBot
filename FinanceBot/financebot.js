@@ -6,6 +6,7 @@ version - Версия бота
 help - Список команд
 */
 
+var vers="0.1.1";
 var TelegramBot = require('node-telegram-bot-api');
 //var Http = require('http');
 const https = require('https');
@@ -22,7 +23,7 @@ bot.on('message', function (msg) {
     try {
         switch (msg.text) {
             case "/version":
-            bot.sendMessage(chatId, "0.1.0", { caption: 'Версия бота' });
+            bot.sendMessage(chatId, vers, { caption: 'Версия бота' });
             break;
             case "/cursb":
                 var msgOpt={
