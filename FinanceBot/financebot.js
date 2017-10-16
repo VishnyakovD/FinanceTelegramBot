@@ -2,6 +2,7 @@
 cursn - Наличный курс
 cursb - Безналичный курс
 chast - Лимит оплаты частями
+version - Версия бота
 help - Список команд
 */
 
@@ -20,6 +21,9 @@ bot.on('message', function (msg) {
  
     try {
         switch (msg.text) {
+            case "version":
+            bot.sendMessage(chatId, "0.1.0", { caption: 'Версия бота' });
+            break;
             case "/cursb":
                 var msgOpt={
                     title1:`          Безналичный курс\n`,title2:'Валюта     Покупка       Продажа\n'
@@ -39,9 +43,10 @@ bot.on('message', function (msg) {
         
             case "/help":
             bot.sendMessage(chatId, `
-/cursn - наличный курс
-/cursb - безналичный курс
-/chast - лимит оплаты частями
+/cursn - Наличный курс
+/cursb - Безналичный курс
+/chast - Лимит оплаты частями
+/version - Версия бота
             `, { caption: 'Финансы' });
             break;
         
