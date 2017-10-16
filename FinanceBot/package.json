@@ -11,7 +11,7 @@
 	},
 	"devDependencies": {},
 	"scripts": {
-			"start": "node financebot.js"
+			"start": "nodemon financebot.js"
 	},
 	"author": "Vishnyakov Dmitriy",
 	"license": "ISC"
