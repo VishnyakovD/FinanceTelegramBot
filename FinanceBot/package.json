@@ -12,7 +12,7 @@
 	},
 	"devDependencies": {},
 	"scripts": {
-			"start": "node financebot.js"
+			"start": "supervisor financebot.js"
 	},
 	"author": "Vishnyakov Dmitriy",
 	"license": "ISC"
